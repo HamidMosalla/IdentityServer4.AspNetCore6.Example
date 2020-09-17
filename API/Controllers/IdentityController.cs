@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace API.Controllers
 {
     [Produces("application/json")]
-    public class IdentityController : Controller
+    public class IdentityController : ControllerBase
     {
         [HttpGet]
         [Authorize("Founder")]

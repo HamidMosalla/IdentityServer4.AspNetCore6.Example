@@ -17,7 +17,7 @@ namespace IdentityProvider
                 {
                     ClientId = "oauthClient",
                     ClientName = "Example client application using client credentials",
-                    AllowedGrantTypes = GrantTypes.Code,
+                    AllowedGrantTypes = GrantTypes.ClientCredentials,
                     ClientSecrets = new List<Secret> {new Secret("SuperSecretPassword".Sha256())}, // change me!
                     AllowedScopes = new List<string> {"api1.read", "api1.write"},
                     AllowOfflineAccess = true,
@@ -48,7 +48,7 @@ namespace IdentityProvider
                     AllowPlainTextPkce = false,
                     AlwaysSendClientClaims = true,
                     AlwaysIncludeUserClaimsInIdToken = true,
-                }
+                },
             };
         }
     }
