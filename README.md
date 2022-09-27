@@ -1,14 +1,10 @@
-# Getting Started with IdentityServer4
-Example IdentityServer4 implementation, including basic API and client application.
+# Policy-based Authorization For Web API With Asp.Net Core 6
+These projects are usage example for JWT and Identityserver 4.1.2 with policy-based authorization and claims for securing Asp.Net Core 6 web API. There are two posts on my [blog](http://hamidmosalla.com) which explains how they work. You can find the links to these posts down below.
 
-This is the completed sample code for the [Getting Started with IdentityServer4](https://www.scottbrady91.com/Identity-Server/Getting-Started-with-IdentityServer-4) tutorial.
+[Policy-based Authorization Using Asp.Net Core 2 And Json Web Token (JWT)](http://hamidmosalla.com/2017/10/19/policy-based-authorization-using-asp-net-core-2-and-json-web-token-jwt/)
 
-## Further Reading
+[Policy-based Authorization Using Asp.Net Core 2 And IdentityServer4](http://hamidmosalla.com/2017/12/07/policy-based-authorization-using-asp-net-core-2-identityserver4/)
 
-For more advanced use cases, check out some of my other articles to learn how to:
-- [Choose the right architecture for protecting your SPA](https://www.scottbrady91.com/OAuth/Cheat-Sheet-OAuth-for-Browser-Based-Applications)
-- [Using asymmetric secrets for client authentication (no more shared secrets!)](https://www.scottbrady91.com/OAuth/Removing-Shared-Secrets-for-OAuth-Client-Authentication)
-- [Handle API gateways authorization and API-to-API communication](https://www.scottbrady91.com/OAuth/Delegation-Patterns-for-OAuth-20)
-- [Outsourcing token signing to Azure Key Vault](https://www.scottbrady91.com/Identity-Server/Outsourcing-IdentityServer4-Token-Signing-to-Azure-Key-Vault)
-
-For older versions of this tutorial, check out the [aspnetcore1](https://github.com/scottbrady91/IdentityServer4-Example/tree/aspnetcore1) and [aspnetcore2](https://github.com/scottbrady91/IdentityServer4-Example/tree/aspnetcore2) branches.
+# What do you need to run it?
+- Visual Studio 2022
+- NET Core 6.0 SDK
