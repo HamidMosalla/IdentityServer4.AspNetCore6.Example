@@ -41,6 +41,7 @@ namespace Client
             {
                 Console.WriteLine(accessToken.Error);
                 return accessToken.Error;
+
             }
 
             Console.WriteLine(accessToken.Json);
